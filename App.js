@@ -4,25 +4,29 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Location from 'expo-location';
 
 const CIUDADES_PRUEBA = [
+
   { nombre: 'Local (GPS)', lat: null, lon: null },
-  // Base McMurdo
-  { nombre: 'Antártida', lat: -77.8463, lon: 166.6682 },
-  // EE.UU: El lugar más caluroso del mundo. 
-  { nombre: 'Valle de la Muerte', lat: 36.4500, lon: -116.8721 },
-  // India: El lugar más lluvioso del planeta (Monzones). 
-  { nombre: 'Cherrapunji', lat: 25.2702, lon: 91.7323 },
-  // Venezuela: Capital mundial de los relámpagos. 
-  { nombre: 'Maracaibo', lat: 9.7457, lon: -71.5587 },
-  // China: El mágico "Mar de Nubes".
-  { nombre: 'Huangshan', lat: 30.1265, lon: 118.1733 }, 
-  // Tórshavn: Uno de los lugares más nublados y oscuros del mundo.
-  { nombre: 'Islas Feroe', lat: 62.0014, lon: -6.7662 }, 
-  // Nepal: Altitud extrema. 
-  { nombre: 'Everest', lat: 27.9881, lon: 86.9250 },
-  // Calidad de Aire Peligrosa 
-  { nombre: 'Nueva Delhi', lat: 28.6139, lon: 77.2090 },
-  // Calidad de Aire Excelente
-  { nombre: 'Reikiavik', lat: 64.1466, lon: -21.9426 },
+  // Ciudades con mayor riqueza económica total
+  // 1. Nueva York, EE.UU. - Una de las economias urbanas mas grandes del mundo
+  { nombre: 'Nueva York', lat: 40.7128, lon: -74.0060 },
+  // 2. Tokio, Japon - Una de las mayores economias metropolitanas
+  { nombre: 'Tokio', lat: 35.6762, lon: 139.6503 },
+  // 3. Los Angeles, EE.UU. - Gran centro economico y empresarial
+  { nombre: 'Los Angeles', lat: 34.0522, lon: -118.2437 },
+  // 4. Londres, Reino Unido - Importante centro financiero mundial
+  { nombre: 'Londres', lat: 51.5074, lon: -0.1278 },
+  // 5. Paris, Francia - Una de las principales economias de Europa
+  { nombre: 'Paris', lat: 48.8566, lon: 2.3522 },
+  // 6. Chicago, EE.UU. - Importante centro financiero e industrial
+  { nombre: 'Chicago', lat: 41.8781, lon: -87.6298 },
+  // 7. San Francisco, EE.UU. - Centro tecnologico y financiero
+  { nombre: 'San Francisco', lat: 37.7749, lon: -122.4194 },
+  // 8. Singapur - Importante centro financiero y comercial de Asia
+  { nombre: 'Singapur', lat: 1.3521, lon: 103.8198 },
+  // 9. Hong Kong - Importante centro financiero internacional
+  { nombre: 'Hong Kong', lat: 22.3193, lon: 114.1694 },
+  // 10. Sydney, Australia - Una de las principales economias de Oceania
+  { nombre: 'Sydney', lat: -33.8688, lon: 151.2093 },
 ];
 
 export default function App() {
